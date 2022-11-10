@@ -7,14 +7,19 @@
 
 import Foundation
 
+import HttpClients_Core
 import Customers_Core
 
 public class RestCustomerRepository: CustomerRepository {
     
     
+    //MARK: - Fields
+    private var httpClient: HttpClient?
+    
+    
     //MARK: - Constructor
-    public init() {
-        
+    public init(_ httpClient: HttpClient?) {
+        self.httpClient = httpClient
     }
     
     
@@ -28,7 +33,10 @@ public class RestCustomerRepository: CustomerRepository {
     }
     
     public func findByName(_ name: String) throws -> Customer? {
-        Customer(name: "Test Name")
+        
+        let response = try httpClient?.httpClientProvider.post(HttpRequest(url: "", headers: HttpHeaders(), content: Data()))
+        print(response?.statusCode ?? 0)
+        return Customer(name: "Test Name")
     }
     
     public func update(_ customer: Customer) throws {

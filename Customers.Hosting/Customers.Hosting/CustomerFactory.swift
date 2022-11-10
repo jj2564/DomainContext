@@ -9,6 +9,7 @@ import Foundation
 
 import Hosting
 
+import HttpClients_Core
 import Customers_Core
 import Customers_Access
 
@@ -26,8 +27,10 @@ public class CustomerFactory: ServiceFactory {
         // check
         guard CustomerContext.self is T.Type else { return nil }
         
+        let httpClient: HttpClient? = provider.getService()
+        
         // create
-        let repository = RestCustomerRepository()
+        let repository = RestCustomerRepository(httpClient)
         
         let context = CustomerContext(
             repository: repository

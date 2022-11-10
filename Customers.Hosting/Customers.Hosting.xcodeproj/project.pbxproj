@@ -15,6 +15,8 @@
 		9D869C35291CE0870095EEB9 /* Hosting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C30291CE0870095EEB9 /* Hosting.framework */; };
 		9D869C36291CE0870095EEB9 /* Hosting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C30291CE0870095EEB9 /* Hosting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D869C40291CE4030095EEB9 /* CustomerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D869C3F291CE4030095EEB9 /* CustomerFactory.swift */; };
+		9D955695291D06CD007B21D6 /* HttpClients_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D955694291D06CD007B21D6 /* HttpClients_Core.framework */; };
+		9D955696291D06CD007B21D6 /* HttpClients_Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D955694291D06CD007B21D6 /* HttpClients_Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9D955696291D06CD007B21D6 /* HttpClients_Core.framework in Embed Frameworks */,
 				9D869C36291CE0870095EEB9 /* Hosting.framework in Embed Frameworks */,
 				9D869C32291CE0870095EEB9 /* Customers_Access.framework in Embed Frameworks */,
 				9D869C34291CE0870095EEB9 /* Customers_Core.framework in Embed Frameworks */,
@@ -40,6 +43,7 @@
 		9D869C2F291CE0870095EEB9 /* Customers_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Customers_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D869C30291CE0870095EEB9 /* Hosting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Hosting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D869C3F291CE4030095EEB9 /* CustomerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerFactory.swift; sourceTree = "<group>"; };
+		9D955694291D06CD007B21D6 /* HttpClients_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HttpClients_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D955695291D06CD007B21D6 /* HttpClients_Core.framework in Frameworks */,
 				9D869C35291CE0870095EEB9 /* Hosting.framework in Frameworks */,
 				9D869C31291CE0870095EEB9 /* Customers_Access.framework in Frameworks */,
 				9D869C33291CE0870095EEB9 /* Customers_Core.framework in Frameworks */,
@@ -85,6 +90,7 @@
 		9D869C2D291CE0870095EEB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D955694291D06CD007B21D6 /* HttpClients_Core.framework */,
 				9D869C2E291CE0870095EEB9 /* Customers_Access.framework */,
 				9D869C2F291CE0870095EEB9 /* Customers_Core.framework */,
 				9D869C30291CE0870095EEB9 /* Hosting.framework */,
