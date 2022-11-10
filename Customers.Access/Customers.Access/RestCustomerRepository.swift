@@ -19,19 +19,19 @@ public class RestCustomerRepository: CustomerRepository {
     
     
     //MARK: - Method
-    public func add(_ customer: Customers_Core.Customer) throws {
+    public func add(_ customer: Customer) throws {
         
     }
     
-    public func delete(_ customer: Customers_Core.Customer) throws {
+    public func delete(_ customer: Customer) throws {
         
     }
     
-    public func findByName(_ name: String) throws -> Customers_Core.Customer? {
+    public func findByName(_ name: String) throws -> Customer? {
         nil
     }
     
-    public func update(_ customer: Customers_Core.Customer) throws {
+    public func update(_ customer: Customer) throws {
         
     }
     

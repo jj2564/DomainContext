@@ -16,7 +16,7 @@ import Customers_Access
 public class CustomerFactory: ServiceFactory {
     
     
-    //MARK: - Contructor
+    //MARK: - Constructor
     public init() { }
     
     
