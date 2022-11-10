@@ -16,4 +16,13 @@
    <FileRef
       location = "group:Customers.Access/Customers.Access.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:HttpClients.Core/HttpClients.Core.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HttpClients.Hosting/HttpClients.Hosting.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HttpClients.Rest/HttpClients.Rest.xcodeproj">
+   </FileRef>
 </Workspace>

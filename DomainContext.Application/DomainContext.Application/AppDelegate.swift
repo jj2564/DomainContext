@@ -8,6 +8,7 @@
 import UIKit
 
 import Hosting
+import HttpClients_Hosting
 import Customers_Hosting
 
 @main
@@ -24,6 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func initialHosting() {
+        
+        HostContext.current.registerFactory(factory: HttpClientFactory(), isSingle: true)
         
         HostContext.current.registerFactory(factory: CustomerFactory(), isSingle: false)
         

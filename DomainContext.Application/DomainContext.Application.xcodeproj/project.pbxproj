@@ -23,6 +23,12 @@
 		9D869C46291CF9560095EEB9 /* Customers_Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C42291CF9560095EEB9 /* Customers_Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D869C48291CF95E0095EEB9 /* Customers_Hosting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C47291CF95E0095EEB9 /* Customers_Hosting.framework */; };
 		9D869C49291CF95E0095EEB9 /* Customers_Hosting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C47291CF95E0095EEB9 /* Customers_Hosting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D95568E291D04F9007B21D6 /* HttpClients_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D95568B291D04F9007B21D6 /* HttpClients_Core.framework */; };
+		9D95568F291D04F9007B21D6 /* HttpClients_Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D95568B291D04F9007B21D6 /* HttpClients_Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D955690291D04F9007B21D6 /* HttpClients_Hosting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D95568C291D04F9007B21D6 /* HttpClients_Hosting.framework */; };
+		9D955691291D04F9007B21D6 /* HttpClients_Hosting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D95568C291D04F9007B21D6 /* HttpClients_Hosting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D955692291D04F9007B21D6 /* HttpClients_Rest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D95568D291D04F9007B21D6 /* HttpClients_Rest.framework */; };
+		9D955693291D04F9007B21D6 /* HttpClients_Rest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D95568D291D04F9007B21D6 /* HttpClients_Rest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +42,9 @@
 				9D869C46291CF9560095EEB9 /* Customers_Core.framework in Embed Frameworks */,
 				9D869C44291CF9560095EEB9 /* Customers_Access.framework in Embed Frameworks */,
 				9D869C49291CF95E0095EEB9 /* Customers_Hosting.framework in Embed Frameworks */,
+				9D95568F291D04F9007B21D6 /* HttpClients_Core.framework in Embed Frameworks */,
+				9D955693291D04F9007B21D6 /* HttpClients_Rest.framework in Embed Frameworks */,
+				9D955691291D04F9007B21D6 /* HttpClients_Hosting.framework in Embed Frameworks */,
 				9D869BE2291CDB980095EEB9 /* Hosting.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -57,6 +66,9 @@
 		9D869C41291CF9560095EEB9 /* Customers_Access.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Customers_Access.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D869C42291CF9560095EEB9 /* Customers_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Customers_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D869C47291CF95E0095EEB9 /* Customers_Hosting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Customers_Hosting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D95568B291D04F9007B21D6 /* HttpClients_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HttpClients_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D95568C291D04F9007B21D6 /* HttpClients_Hosting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HttpClients_Hosting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D95568D291D04F9007B21D6 /* HttpClients_Rest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HttpClients_Rest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,9 @@
 				9D869C45291CF9560095EEB9 /* Customers_Core.framework in Frameworks */,
 				9D869C43291CF9560095EEB9 /* Customers_Access.framework in Frameworks */,
 				9D869C48291CF95E0095EEB9 /* Customers_Hosting.framework in Frameworks */,
+				9D95568E291D04F9007B21D6 /* HttpClients_Core.framework in Frameworks */,
+				9D955692291D04F9007B21D6 /* HttpClients_Rest.framework in Frameworks */,
+				9D955690291D04F9007B21D6 /* HttpClients_Hosting.framework in Frameworks */,
 				9D869BE1291CDB980095EEB9 /* Hosting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				9D869B99291CCF090095EEB9 /* DomainContext.Application */,
-				9D869B98291CCF090095EEB9 /* Products */,
 				9D869BDC291CDB980095EEB9 /* Frameworks */,
+				9D869B98291CCF090095EEB9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +124,9 @@
 		9D869BDC291CDB980095EEB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D95568B291D04F9007B21D6 /* HttpClients_Core.framework */,
+				9D95568C291D04F9007B21D6 /* HttpClients_Hosting.framework */,
+				9D95568D291D04F9007B21D6 /* HttpClients_Rest.framework */,
 				9D869C47291CF95E0095EEB9 /* Customers_Hosting.framework */,
 				9D869C41291CF9560095EEB9 /* Customers_Access.framework */,
 				9D869C42291CF9560095EEB9 /* Customers_Core.framework */,

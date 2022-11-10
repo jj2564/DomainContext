@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let customer = try? customerContext?.repository.findByName("Irving Huang")
-        print(customer?.name)
+        print(customer?.name ?? "")
     }
 
 
