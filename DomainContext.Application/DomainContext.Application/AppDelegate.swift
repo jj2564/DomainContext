@@ -7,6 +7,9 @@
 
 import UIKit
 
+import Hosting
+import Customers_Hosting
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -14,9 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        initialHosting()
+        
         return true
     }
 
+    private func initialHosting() {
+        
+        HostContext.current.registerFactory(factory: CustomerFactory(), isSingle: false)
+        
+    }
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

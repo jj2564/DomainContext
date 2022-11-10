@@ -28,7 +28,7 @@ public class RestCustomerRepository: CustomerRepository {
     }
     
     public func findByName(_ name: String) throws -> Customer? {
-        nil
+        Customer(name: "Test Name")
     }
     
     public func update(_ customer: Customer) throws {

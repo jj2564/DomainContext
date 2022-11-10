@@ -17,6 +17,12 @@
 		9D869BE0291CDB980095EEB9 /* Customers_Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869BDD291CDB980095EEB9 /* Customers_Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D869BE1291CDB980095EEB9 /* Hosting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869BDE291CDB980095EEB9 /* Hosting.framework */; };
 		9D869BE2291CDB980095EEB9 /* Hosting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869BDE291CDB980095EEB9 /* Hosting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D869C43291CF9560095EEB9 /* Customers_Access.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C41291CF9560095EEB9 /* Customers_Access.framework */; };
+		9D869C44291CF9560095EEB9 /* Customers_Access.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C41291CF9560095EEB9 /* Customers_Access.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D869C45291CF9560095EEB9 /* Customers_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C42291CF9560095EEB9 /* Customers_Core.framework */; };
+		9D869C46291CF9560095EEB9 /* Customers_Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C42291CF9560095EEB9 /* Customers_Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D869C48291CF95E0095EEB9 /* Customers_Hosting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C47291CF95E0095EEB9 /* Customers_Hosting.framework */; };
+		9D869C49291CF95E0095EEB9 /* Customers_Hosting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C47291CF95E0095EEB9 /* Customers_Hosting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +33,9 @@
 			dstSubfolderSpec = 10;
 			files = (
 				9D869BE0291CDB980095EEB9 /* Customers_Core.framework in Embed Frameworks */,
+				9D869C46291CF9560095EEB9 /* Customers_Core.framework in Embed Frameworks */,
+				9D869C44291CF9560095EEB9 /* Customers_Access.framework in Embed Frameworks */,
+				9D869C49291CF95E0095EEB9 /* Customers_Hosting.framework in Embed Frameworks */,
 				9D869BE2291CDB980095EEB9 /* Hosting.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -45,6 +54,9 @@
 		9D869BA8291CCF0A0095EEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D869BDD291CDB980095EEB9 /* Customers_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Customers_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D869BDE291CDB980095EEB9 /* Hosting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Hosting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D869C41291CF9560095EEB9 /* Customers_Access.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Customers_Access.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D869C42291CF9560095EEB9 /* Customers_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Customers_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D869C47291CF95E0095EEB9 /* Customers_Hosting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Customers_Hosting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D869BDF291CDB980095EEB9 /* Customers_Core.framework in Frameworks */,
+				9D869C45291CF9560095EEB9 /* Customers_Core.framework in Frameworks */,
+				9D869C43291CF9560095EEB9 /* Customers_Access.framework in Frameworks */,
+				9D869C48291CF95E0095EEB9 /* Customers_Hosting.framework in Frameworks */,
 				9D869BE1291CDB980095EEB9 /* Hosting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +109,9 @@
 		9D869BDC291CDB980095EEB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D869C47291CF95E0095EEB9 /* Customers_Hosting.framework */,
+				9D869C41291CF9560095EEB9 /* Customers_Access.framework */,
+				9D869C42291CF9560095EEB9 /* Customers_Core.framework */,
 				9D869BDD291CDB980095EEB9 /* Customers_Core.framework */,
 				9D869BDE291CDB980095EEB9 /* Hosting.framework */,
 			);
