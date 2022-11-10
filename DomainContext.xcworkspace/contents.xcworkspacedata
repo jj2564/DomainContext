@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DomainContext.Application/DomainContext.Application.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Hosting/Hosting.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Customers.Core/Customers.Core.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Customers.Hosting/Customers.Hosting.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Customers.Access/Customers.Access.xcodeproj">
+   </FileRef>
+</Workspace>
