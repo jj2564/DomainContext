@@ -14,6 +14,7 @@
 		9D869C34291CE0870095EEB9 /* Customers_Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C2F291CE0870095EEB9 /* Customers_Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9D869C35291CE0870095EEB9 /* Hosting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C30291CE0870095EEB9 /* Hosting.framework */; };
 		9D869C36291CE0870095EEB9 /* Hosting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D869C30291CE0870095EEB9 /* Hosting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D869C40291CE4030095EEB9 /* CustomerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D869C3F291CE4030095EEB9 /* CustomerFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,7 @@
 		9D869C2E291CE0870095EEB9 /* Customers_Access.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Customers_Access.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D869C2F291CE0870095EEB9 /* Customers_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Customers_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D869C30291CE0870095EEB9 /* Hosting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Hosting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D869C3F291CE4030095EEB9 /* CustomerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		9D869BF4291CDC120095EEB9 /* Customers.Hosting */ = {
 			isa = PBXGroup;
 			children = (
+				9D869C3F291CE4030095EEB9 /* CustomerFactory.swift */,
 				9D869BF5291CDC120095EEB9 /* Customers_Hosting.h */,
 			);
 			path = Customers.Hosting;
@@ -133,6 +136,7 @@
 				TargetAttributes = {
 					9D869BF1291CDC120095EEB9 = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -169,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D869C40291CE4030095EEB9 /* CustomerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +303,7 @@
 		9D869BFA291CDC120095EEB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -318,6 +324,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -326,6 +333,7 @@
 		9D869BFB291CDC120095EEB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
